@@ -13,10 +13,14 @@ $(call inherit-product, vendor/xiaomi/equuleus/equuleus-vendor.mk)
 TARGET_SCREEN_HEIGHT := 2248
 TARGET_SCREEN_WIDTH := 1080
 
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_FACE_UNLOCK := true
+PRODUCT_PACKAGES += \
+    FaceUnlockService
+	
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay
 
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
