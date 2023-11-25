@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_equuleus.mk
+    $(LOCAL_DIR)/evolution_equuleus.mk
 
 COMMON_LUNCH_CHOICES := \
     evolution_equuleus-userdebug \
