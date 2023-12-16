@@ -11,6 +11,8 @@ BUILD_BROKEN_DUP_RULES := true
 
 DEVICE_PATH := device/xiaomi/equuleus
 
+SELINUX_IGNORE_NEVERALLOWS := true
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := equuleus
 
