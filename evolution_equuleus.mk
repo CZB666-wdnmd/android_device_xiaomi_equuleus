@@ -13,6 +13,8 @@ EXTRA_UDFPS_ANIMATIONS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_BUILD_APERTURE_CAMERA := false
 TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_BUILD_VIMUSIC := false
+TARGET_INCLUDE_GRAMOPHONE := false
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := evolution_equuleus
@@ -26,5 +28,7 @@ BUILD_FINGERPRINT := "Xiaomi/equuleus/equuleus:8.1.0/OPM1.171019.026/V9.6.6.0.OE
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="equuleus-user 8.1.0 OPM1.171019.026 V9.6.6.0.OECCNFD release-keys" \
     PRODUCT_NAME="equuleus"
+
+PRODUCT_CHARACTERISTICS := nosdcard
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
