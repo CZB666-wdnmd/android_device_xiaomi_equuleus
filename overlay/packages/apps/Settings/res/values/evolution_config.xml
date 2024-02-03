@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019-2023 Evolution X
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Whether build status should be shown or not. -->
+    <bool name="config_show_build_status">true</bool>
+    <bool name="config_supports_dynamic_refresh_rate_controls">false</bool>
+
+    <!-- Fingerprint -->
+    <bool name="config_is_front_facing_fps" translatable="false">true</bool>
+
+    <!-- Whether to show TouchGestures preference -->
+    <bool name="config_supportsTouchGestures">true</bool>
+
+    <!-- Max network scan search time in seconds -->
+    <integer name="config_network_scan_helper_max_search_time_sec">300</integer>
+
+    <!-- Whether to enable Lineage Fast Charge Prefernece -->
+    <bool name="config_lineageFastChargeSupported">true</bool>
+
+    <!-- Whether to show custom screen resolution settings -->
+    <bool name="config_show_custom_screen_resolution_switch">false</bool>
+
+</resources>
