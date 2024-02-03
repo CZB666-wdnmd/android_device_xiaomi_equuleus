@@ -15,6 +15,7 @@ TARGET_BUILD_APERTURE_CAMERA := false
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_BUILD_VIMUSIC := false
 TARGET_INCLUDE_GRAMOPHONE := false
+TARGET_USES_MIUI_CAMERA := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := evolution_equuleus
