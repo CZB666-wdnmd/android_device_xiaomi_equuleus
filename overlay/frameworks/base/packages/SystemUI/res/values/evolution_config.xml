@@ -9,11 +9,4 @@
 
     <!-- Color of the UDFPS pressed view -->
     <color name="config_udfpsColor">#00ffff</color>
-
-    <!-- Whether to pulse onFingerDown actions instead
-        of waking the screen while the screen is off or in lpm. -->
-    <bool name="config_pulseOnFingerDown">true</bool>
-
-    <!-- Flag to enable framework dimming for udfps -->
-    <bool name="config_udfpsFrameworkDimming">true</bool>
 </resources>
