@@ -1,8 +1,9 @@
 version 1
 flash boot
 flash recovery
+update-super
 flash system
-flash cust system_ext.img
 flash vendor
+flash system_ext
 if-wipe erase cache
 if-wipe erase userdata
